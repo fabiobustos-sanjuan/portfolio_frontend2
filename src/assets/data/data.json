@@ -1,0 +1,84 @@
+{
+	"name": "Fabián Enrique Bustos",
+	"ubicacion": "San Juan - Argentina",
+	"picture":"url",
+	"education": [{
+		"school":"Escuela Normal Superior General Manuel Belgrano",
+		"title":"Analista",
+		"img":"url",
+		"career":"Analista en Sistemas de Computación",
+		"start":"2000",
+		"end":"2001"
+	},
+	{
+		"school":"Escuela Normal Superior General Manuel Belgrano",
+		"title":"Analista",
+		"img":"url",
+		"career":"Analista Programador",
+		"start":"1998",
+		"end":"2000"
+	},
+	{
+		"school":"Escuela Nacional de Educación Técnica E.N.E.T. N° 1",
+		"title":"Técnico",
+		"img":"url",
+		"career":"Técnico Mecánico O.M.A.",
+		"start":"1986",
+		"end":"1991"
+	}],
+	"project": [{
+		"name":"Portfolio Personal",
+		"description": "Portfolio Personal Responsive hecho en Html, CSS, JScript y Bootstrap elaborado por tecnología responsive de alto rendimiento.",
+		"img":"url"
+	},
+	{
+		"name":"Portfolio Privado",
+		"description":"Portfolio Público Responsive",
+		"img":"url"
+	},
+	{
+		"name":"Portfolio Público",
+		"description":"Portfolio Público Responsive",
+		"img":"url"
+	}
+	],
+	"hys_skill":[{
+		"type":"hard",
+		"name":"html",
+		"perc":"85"
+	},
+	{	"type":"hard",
+		"name":"css",
+		"perc":"40"
+	},
+	{
+		"type":"hard",
+		"name":"javascript",
+		"perc":"50"
+	},
+	{
+		"type":"hard",
+		"name":"inglés",
+		"perc":"33"		
+	},
+	{
+		"type":"soft",
+		"name":"comunicación",
+		"perc":"85"
+	},
+	{
+		"type":"soft",
+		"name":"liderazgo",
+		"perc":"80"
+	},
+	{
+		"type":"soft",
+		"name":"creatividad",
+		"perc":"90"
+	},
+	{
+		"type":"soft",
+		"name":"adaptabilidad",
+		"perc":"90"
+	}]
+}

@@ -1,0 +1,18 @@
+<div class="aboutc">
+
+<main class="textoyfoto2">
+    <img src={{persona.imgs}} alt="Fabián Bustos">
+    <div class="info-content2">
+      <a name="home"><p id="prf">Hola, mi nombre es {{persona.nombre}}
+         {{persona.apellido}}. {{persona.about}}        
+      </p></a>
+    </div>
+    <h1 class="acercade">Acerca de mi</h1>
+  </main>
+  <div *ngIf="isLogged">
+    <button class="btn btn-light" routerLink="/editacercade/1">
+      <i class="bi bi-pencil-fill"></i>EDIT USUARIO
+    </button>
+  </div>
+  
+</div>

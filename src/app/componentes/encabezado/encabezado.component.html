@@ -1,0 +1,54 @@
+<div>
+<div class="principal">
+
+    <div class="izquierda">
+      <div class="logo_ap" id="rc_logo">        
+        <img src="https://i.imgur.com/BgJhn7j.png" alt="Argentina Programa">
+        <img class="top" src="https://i.imgur.com/gyHSpia.png" alt="Argentina Programa">
+      </div> 
+    </div>  
+    
+    <div class="centro">
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <img src="https://i.imgur.com/HJ8QACi.png" alt="" class="logo">
+        </label>
+      
+        <ul>          
+            <li><a href="#home">Acerca de</a></li>
+            <li><a href="#formacion">Educación</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#habilidad">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+        </ul>
+    </nav>
+    </div>  
+
+    <div class="derecha">
+      
+              <!-- LOGIN -->
+      <div class="btn1">
+        <button class="boton login" id="btnModal" (click)="login()" *ngIf="!isLogged">        
+          Login
+        </button>
+        <button class="boton login" id="btnModal" (click)="onLogOut()" *ngIf="isLogged">        
+          LogOut
+        </button>
+      </div>
+
+      <div class="sociales">
+        <a href="https://www.facebook.com/Fabio.de.San.Juan" 
+        target="_blank" rel="noopener noreferrer">
+          <img class="extra" src="https://i.imgur.com/GbBpmzM.png" alt="facebook">
+        </a>
+        <a href="https://github.com/fabiobustos-sanjuan" target="_blanck" rel="noopener noreferrer">
+        <img class="extra" src="https://i.imgur.com/6tojplj.png" alt="github">
+        </a>
+        <a href="https://www.linkedin.com/in/fabian-bustos-sanjuan/" target="_blanck" rel="noopener noreferrer">
+          <img class="extra" src="https://i.imgur.com/jCZuXWQ.png" alt="linkedin">
+        </a>
+      </div>    
+    </div>
+  </div>
+</div>
